@@ -1,36 +1,36 @@
 data = [
     {
-        name: 'Instagram',
+        name: 'Wasser',
         follower_count: 395,
         description: 'Social media platform',
         country: 'United States'
     },
     {
-        name: 'Cristiano Ronaldo',
+        name: 'Gold',
         follower_count: 284,
         description: 'Footballer',
         country: 'Portugal'
     },
     {
-        name: 'Dwayne Johnson',
+        name: 'Silber',
         follower_count: 240,
         description: 'Actor and professional wrestler',
         country: 'United States'
     },
     {
-        name: 'Ariana Grande',
+        name: 'Arsen',
         follower_count: 235,
         description: 'Musician and actress',
         country: 'United States'
     },
       {
-        name: 'Kylie Jenner',
+        name: 'Sauerstoff',
         follower_count: 230,
         description: 'Reality TV personality and businesswoman and Self-Made Billionaire',
         country: 'United States'
     },
     {
-        name: 'Selena Gomez',
+        name: 'Chlor',
         follower_count: 224,
         description: 'Musician and actress',
         country: 'United States'
