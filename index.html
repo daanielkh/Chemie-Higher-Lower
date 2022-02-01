@@ -1,20 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Higher Lower Game Online" />
+    <meta name="description" content="What gets Googled more?
+A frustratingly addictive game of higher or lower using Instagram Followers.
+The data is based on global Instagram Followers as of 2021." />
+    <title>The Higher Lower Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="higherLower.css">
+    <link rel="icon" href="favicon (1).ico" type="image/x-icon">
+</head>
+
 <body>
-  
-<h1><center>Higher Lower Game Chemie</center></h1>
+    <h1>The Higher Lower Game</h1>
+    <p id="ins">Instagram Version</p>
+    <section>
+        <div id="a">
+            <p id="aname"><b>Name: </b></p>
+            <p id="afollow"><b>Followers: </b></p>
+            <p id="adescr"><b>Description: </b></p>
+            <p id="acount"><b>Country: </b></p>
+        </div>
+        <div style="width: 20%;background-color:white;" id="mid"><img
+                src="https://th.bing.com/th/id/OIP.TVwiVUqQoYYv-p-ztVzuFQHaFG?w=268&h=184&c=7&o=5&dpr=1.25&pid=1.7"
+                alt=""></div>
+        <div id="b">
+            <p id="bname"><b>Name: </b></p>
+            <p id="bfollow"><b>Followers: </b></p>
+            <p id="bdescr"><b>Description: </b></p>
+            <p id="bcount"><b>Country: </b></p>
+            <button type="button" class="btn btn-outline-dark" style="font-weight: 500;" id="high">Higher <img
+                    src="https://th.bing.com/th/id/OIP.voIU5afElATDSDArdz7SJAHaHa?w=186&h=186&c=7&o=5&dpr=1.25&pid=1.7"
+                    alt=""></button>
+            <button type="button" class="btn btn-outline-dark" style="font-weight: 500;" id="low">Lower <img
+                    src="https://th.bing.com/th/id/OIP.uOPhnTCOUjeYJpddvE1QnQHaHa?w=180&h=180&c=7&o=5&dpr=1.25&pid=1.7"
+                    alt=""></button>
+        </div>
+    </section>
+    <h2>Your Total Score is <span>0.</span></h2>
 
-<div id="vs">
-<img src="https://th.bing.com/th/id/OIP.TVwiVUqQoYYv-p-ztVzuFQHaFG?w=268&h=184&c=7&o=5&dpr=1.25&pid=1.7">
-</div>
-  
-  <style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
+    <script src="higherLower.js"></script>
 </body>
+
 </html>
