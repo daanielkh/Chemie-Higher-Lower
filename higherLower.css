@@ -1,1 +1,26 @@
+#vs {
+    border: 1px solid;
+    margin: 0px 10px 0px 0px;
+    width: 250px;
+    height: 200px;
+    border-radius: 35px; 
+    -webkit-border-radius: 35px; 
+    -moz-border-radius: 35px; 
+    border: 1px solid #E8E8E8;
+    display:inline-block;
+    
+    text-align: center;
+    font: 0/0 a;
+}
 
+#vs:after {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+#vs img {
+    display: inline-block;
+    vertical-align: middle;   
+}
