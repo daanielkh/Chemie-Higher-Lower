@@ -8,6 +8,14 @@ data = [
     },
     
     {
+      name: 'Methanol',
+        siede_temperatur: 64.7,
+        dichte: 0,79,
+        schmelz_temperatur: -97,6
+        
+    },
+    
+    {
         name: 'Kupfer',
         siede_temperatur: 2562,
         dichte: 5,
