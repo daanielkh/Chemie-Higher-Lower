@@ -1,6 +1,70 @@
-#vs {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+section {
+  display: flex;
+}
+section div {
+  width: 42%;
+  height: 300px;
+  background-color: rgb(243, 225, 202);
+  border: 2px solid red;
+  box-shadow: 2px 3px 10px 5px rgb(145, 93, 26);
+  margin: 1%;
+}
+#ins {
+  text-align: center;
+  margin: 0px;
+  font-size: 20px;
+}
+@media (max-width: 900px) {
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+  section div {
+    width: 80%;
+    height: 400px;
+  }
+  #mid {
+    width: 50% !important;
+    height: 200px;
+  }
+}
+div img {
+  height: 70%;
+  width: 80%;
+  margin: 20px 10%;
+}
+button img {
+  width: 20px;
+  height: 20px;
+  margin: 2px 0px 0px 9.2px;
+  float: right;
+}
+p {
+  margin: 20px 20px;
+}
+h1 {
+  text-align: center;
+  margin: 20px 0px 30px;
+  padding-bottom: 20px;
+  border-bottom: 2.5px solid red;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 15px;
+}
+button {
+  padding: 10px;
+  margin: 20px 20px;
+  /* border: 20px solid black; */
+}
+h2 {
+  text-align: center;
+  margin: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2.5px solid red;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 15px;
+}
+span {
+  color: red;
+  font-weight: 900;
+  font-size: 35px;
 }
