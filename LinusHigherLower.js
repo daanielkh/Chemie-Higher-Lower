@@ -1,32 +1,18 @@
 data = [
-  //Hallo lieber Linus
+
+
     {
-        name: 'Wasser',
-        siede_temperatur: 100,
-        dichte: 5,
-        schmelz_temperatur: 5
-        
-    },
-    
-    {
-        name: 'Kupfer',
-        siede_temperatur: 2562,
-        dichte: 5,
-        schmelz_temperatur: 5
-    }, 
-    
-  {
         name: 'Edelstahl',
         siede_temperatur: 1500,
         dichte: x,
         schmelz_temperatur: 1500,
     },    
-  {
+    {
         name: 'Quecksilber',
         siede_temperatur: 1500,
         dichte: 13.54,
         schmelztemperatur: -38.4,
-  },
+    },
   
       {
         name: 'Wasserstoff',
@@ -154,7 +140,7 @@ data = [
     },  
   
   
-   {
+    {
         name: 'Tellur',
         siede_temperatur: 990,
         dichte: 6.24,
@@ -182,7 +168,7 @@ data = [
         schmelz_temperatur: -220,
     },   
   
-  {
+    {
         name: 'Chlor',
         siede_temperatur: -35,
         dichte: 3.22,
@@ -194,6 +180,6 @@ data = [
         siede_temperatur: 59,
         dichte: 3.12,
         schmelz_temperatur: -7,
-    },   
+    }   
   
 ]
