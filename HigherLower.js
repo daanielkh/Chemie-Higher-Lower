@@ -2,20 +2,16 @@ data = [
     {
         name: 'Wasser',
         siede_temperatur: 100,
-
+        dichte: 5,
+        schmelz_temperatur: 5
+        
     },
+    
     {
         name: 'Kupfer',
         siede_temperatur: 2562,
-    },  
-        {
-        name: 'x',
-        siede_temperatur: x,
-
-    },
-    {
-        name: 'x',
-        siede_temperatur: x,
-    }
+        dichte: 5,
+        schmelz_temperatur: 5
+    },      
     
 ]
