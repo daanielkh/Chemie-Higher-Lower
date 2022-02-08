@@ -2,8 +2,8 @@ data = [
     {
         name: 'Wasser',
         siede_temperatur: 100,
-        dichte: 5,
-        schmelz_temperatur: 5
+        dichte: 1,
+        schmelz_temperatur: 0
         
     },
     
