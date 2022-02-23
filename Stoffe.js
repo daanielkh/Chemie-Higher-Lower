@@ -350,14 +350,14 @@ b = random()
 if (a == b && b !== 50) a = b + 1
 else a=b-1
 aname.innerHTML=`<b>Name: </b>${data[a].name}`
-asiede.innerHTML=`<b>Siedetemperatur: </b>${data[a].siede_temperatur} grad CELSIUS`
+asiede.innerHTML=`<b>Siedetemperatur: </b>${data[a].siede_temperatur} millions`
 adichte.innerHTML=`<b>Dichte: </b>${data[a].dichte}`
-aschmelz.innerHTML=`<b>Schmelztemperatur: </b>${data[a].schmelztemperatur}`
+aschmelz.innerHTML=`<b>Schmelztemperatur: </b>${data[a].schmelz_temperatur}`
 
 bname.innerHTML=`<b>Name: </b>${data[b].name}`
-bsiede.innerHTML=`<b>Siedetemperatur: </b>? grad CELSIUS`
+bsiede.innerHTML=`<b>Siedetemperatur: </b>? millions`
 bdichte.innerHTML=`<b>Dichte: </b>${data[b].dichte}`
-bschmelz.innerHTML=`<b>Schmelztemperatur: </b>${data[b].schmelztemperatur}`
+bschmelz.innerHTML=`<b>Schmelztemperatur: </b>${data[b].schmelz_temperatur}`
 
 let hBtn = document.getElementById("high")
 let lBtn = document.getElementById("low")
@@ -376,12 +376,12 @@ hBtn.addEventListener("click", function () {
         aname.innerHTML=`<b>Name: </b>${data[b].name}`
         asiede.innerHTML=`<b>Siedetemperatur: </b>${data[b].siede_temperatur} grad CELSIUS`
         adichte.innerHTML=`<b>Dichte: </b>${data[b].dichte}`
-        aschmelz.innerHTML=`<b>Schmelztemperatur: </b>${data[b].schmelztemperatur}`
+        aschmelz.innerHTML=`<b>Schmelztemperatur: </b>${data[b].schmelz_temperatur}`
         
         bname.innerHTML=`<b>Name: </b>${data[c].name}`
         bsiede.innerHTML=`<b>Siedetemperatur: </b>? grad CELSIUS`
         bdichte.innerHTML=`<b>Dichte: </b>${data[c].dichte}`
-        bschmelz.innerHTML = `<b>Schmelztemperatur: </b>${data[c].schmelztemperatur}`
+        bschmelz.innerHTML = `<b>Schmelztemperatur: </b>${data[c].schmelz_temperatur}`
         
         console.log(data[b].siede_temperatur)
         console.log(data[a].siede_temperatur)
@@ -390,7 +390,7 @@ hBtn.addEventListener("click", function () {
         data[b].name=data[c].name
         data[b].siede_temperatur=data[c].siede_temperatur
         data[b].dichte=data[c].dichte
-        data[b].schmelztemperatur = data[c].schmelztemperatur
+        data[b].schmelz_temperatur = data[c].schmelz_temperatur
         
         
 h2.innerHTML=`Your Total Score is <span>${score}</span>.`
@@ -412,12 +412,12 @@ lBtn.addEventListener("click", function () {
         aname.innerHTML=`<b>Name: </b>${data[b].name}`
         asiede.innerHTML=`<b>Siedetemperatur: </b>${data[b].siede_temperatur} grad CELSIUS`
         adichte.innerHTML=`<b>Dichte: </b>${data[b].dichte}`
-        aschmelz.innerHTML=`<b>Schmelztemperatur: </b>${data[b].schmelztemperatur}`
+        aschmelz.innerHTML=`<b>Schmelztemperatur: </b>${data[b].schmelz_temperatur}`
         
         bname.innerHTML=`<b>Name: </b>${data[c].name}`
         bsiede.innerHTML=`<b>Siedetemperatur: </b>? grad CELSIUS`
         bdichte.innerHTML=`<b>Dichte: </b>${data[c].dichte}`
-        bschmelz.innerHTML = `<b>Schmelztemperatur: </b>${data[c].schmelztemperatur}`
+        bschmelz.innerHTML = `<b>Schmelztemperatur: </b>${data[c].schmelz_temperatur}`
         
         console.log(data[b].siede_temperatur)
         console.log(data[a].siede_temperatur)
@@ -426,7 +426,7 @@ lBtn.addEventListener("click", function () {
         data[b].name=data[c].name
         data[b].siede_temperatur=data[c].siede_temperatur
         data[b].dichte=data[c].dichte
-        data[b].schmelztemperatur = data[c].schmelztemperatur
+        data[b].schmelz_temperatur = data[c].schmelz_temperatur
         
         h2.innerHTML=`Your Total Score is <span>${score}</span>.`
     }
