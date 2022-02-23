@@ -334,14 +334,14 @@ lBtn.addEventListener("click", function () {
         c = random()
        
         aname.innerHTML=`<b>Name: </b>${data[b].name}`
-        afollow.innerHTML=`<b>Siedetemperatur: </b>${data[b].follower_count} millions`
-        adescr.innerHTML=`<b>Dichte: </b>${data[b].description}`
-        acount.innerHTML=`<b>Schmelztemperatur: </b>${data[b].country}`
+        afollow.innerHTML=`<b>Siedetemperatur: </b>${data[b].follower_count} °C`
+        adescr.innerHTML=`<b>Dichte: </b>${data[b].description} kg/m3`
+        acount.innerHTML=`<b>Schmelztemperatur: </b>${data[b].country} °C`
         
         bname.innerHTML=`<b>Name: </b>${data[c].name}`
-        bfollow.innerHTML=`<b>Siedetemperatur: </b>? millions`
-        bdescr.innerHTML=`<b>Dichte: </b>${data[c].description}`
-        bcount.innerHTML = `<b>Schmelztemperatur: </b>${data[c].country}`
+        bfollow.innerHTML=`<b>Siedetemperatur: </b>? °C`
+        bdescr.innerHTML=`<b>Dichte: </b>${data[c].description} kg/m3`
+        bcount.innerHTML = `<b>Schmelztemperatur: </b>${data[c].country} °C`
         
         console.log(data[b].follower_count)
         console.log(data[a].follower_count)
