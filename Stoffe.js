@@ -7,7 +7,7 @@ data = [
         schmelztemperatur: -38.4,
     },
   
-      {
+    {
         name: 'Wasserstoff',
         siede_temperatur: -253,
         dichte: 0.09,
@@ -27,7 +27,8 @@ data = [
         dichte: 1.53,
         schmelz_temperatur: 39.3,
     },   
-      {
+
+    {
         name: 'Caesium',
         siede_temperatur: 678,
         dichte: 1.9,
@@ -132,14 +133,6 @@ data = [
         schmelz_temperatur: 220,
     },  
   
-  
-    {
-        name: 'Tellur',
-        siede_temperatur: 990,
-        dichte: 6.24,
-        schmelz_temperatur: 449,5
-    },   
-  
     {
         name: 'Antimon',
         siede_temperatur: 1750,
@@ -185,24 +178,19 @@ data = [
         
     },
     
-    {
-      name: 'Methanol',
-        siede_temperatur: 64.7,
-        dichte: 0,79,
-        schmelz_temperatur: -97.6
-        
-    },
     
     {
-      name: 'Ethanol',
+        name: 'Ethanol',
         siede_temperatur: 78.4,
         dichte: 0.79,
         schmelz_temperatur: -114.1
         
     },
     
+
+    
     {
-      name: 'Helium',
+        name: 'Helium',
         siede_temperatur: -268.9,
         dichte: 0.18,
         schmelz_temperatur: -272.2
@@ -210,7 +198,7 @@ data = [
     },
     
     {
-      name: 'Neon',
+        name: 'Neon',
         siede_temperatur: -246.1,
         dichte: -248,
         schmelz_temperatur: 0.9
@@ -345,4 +333,113 @@ data = [
     }
     
 ]
-  
+
+
+let aname=document.getElementById("aname")
+let asiede=document.getElementById("asiede")
+let adichte=document.getElementById("adichte")
+let aschmelz = document.getElementById("aschmelz")
+
+let bname=document.getElementById("bname")
+let bsiede=document.getElementById("bsiede")
+let bdichte=document.getElementById("bdichte")
+let bschmelz = document.getElementById("bschmelz")
+
+a = random()
+b = random()
+if (a == b && b !== 50) a = b + 1
+else a=b-1
+aname.innerHTML=`<b>Name: </b>${data[a].name}`
+asiede.innerHTML=`<b>Siedetemperatur: </b>${data[a].siede_temperatur} grad CELSIUS`
+adichte.innerHTML=`<b>Dichte: </b>${data[a].dichte}`
+aschmelz.innerHTML=`<b>Schmelztemperatur: </b>${data[a].schmelztemperatur}`
+
+bname.innerHTML=`<b>Name: </b>${data[b].name}`
+bsiede.innerHTML=`<b>Siedetemperatur: </b>? grad CELSIUS`
+bdichte.innerHTML=`<b>Dichte: </b>${data[b].dichte}`
+bschmelz.innerHTML=`<b>Schmelztemperatur: </b>${data[b].schmelztemperatur}`
+
+let hBtn = document.getElementById("high")
+let lBtn = document.getElementById("low")
+let h2=document.querySelector("h2")
+score=0
+hBtn.addEventListener("click", function () {
+
+    if (data[b].siede_temperatur >= data[a].siede_temperatur) {
+        // alert("Yes")
+        score++
+
+        bsiede.innerHTML = `<b>Siedetemperatur: </b>${data[b].siede_temperatur} grad CELSIUS`
+
+        bsiede.innerHTML = `<b>Siedetemperatur: </b>${data[b].siede_temperatur} grad CELSIUS`
+        c = random()
+        aname.innerHTML=`<b>Name: </b>${data[b].name}`
+        asiede.innerHTML=`<b>Siedetemperatur: </b>${data[b].siede_temperatur} grad CELSIUS`
+        adichte.innerHTML=`<b>Dichte: </b>${data[b].dichte}`
+        aschmelz.innerHTML=`<b>Schmelztemperatur: </b>${data[b].schmelztemperatur}`
+        
+        bname.innerHTML=`<b>Name: </b>${data[c].name}`
+        bsiede.innerHTML=`<b>Siedetemperatur: </b>? grad CELSIUS`
+        bdichte.innerHTML=`<b>Dichte: </b>${data[c].dichte}`
+        bschmelz.innerHTML = `<b>Schmelztemperatur: </b>${data[c].schmelztemperatur}`
+        
+        console.log(data[b].siede_temperatur)
+        console.log(data[a].siede_temperatur)
+        data[a].siede_temperatur=data[b].siede_temperatur
+
+        data[b].name=data[c].name
+        data[b].siede_temperatur=data[c].siede_temperatur
+        data[b].dichte=data[c].dichte
+        data[b].schmelztemperatur = data[c].schmelztemperatur
+        
+        
+h2.innerHTML=`Your Total Score is <span>${score}</span>.`
+    }
+     else {
+        alert("You Loss Game!!!!!!!!!!!")
+        score = 0
+                
+h2.innerHTML=`Your Total Score is <span>${score}</span>.`
+    }
+})
+
+lBtn.addEventListener("click", function () {
+    if (data[b].siede_temperatur <= data[a].siede_temperatur) {
+        // alert("Yes")
+        score++
+        c = random()
+       
+        aname.innerHTML=`<b>Name: </b>${data[b].name}`
+        asiede.innerHTML=`<b>Siedetemperatur: </b>${data[b].siede_temperatur} grad CELSIUS`
+        adichte.innerHTML=`<b>Dichte: </b>${data[b].dichte}`
+        aschmelz.innerHTML=`<b>Schmelztemperatur: </b>${data[b].schmelztemperatur}`
+        
+        bname.innerHTML=`<b>Name: </b>${data[c].name}`
+        bsiede.innerHTML=`<b>Siedetemperatur: </b>? grad CELSIUS`
+        bdichte.innerHTML=`<b>Dichte: </b>${data[c].dichte}`
+        bschmelz.innerHTML = `<b>Schmelztemperatur: </b>${data[c].schmelztemperatur}`
+        
+        console.log(data[b].siede_temperatur)
+        console.log(data[a].siede_temperatur)
+        data[a].siede_temperatur=data[b].siede_temperatur
+
+        data[b].name=data[c].name
+        data[b].siede_temperatur=data[c].siede_temperatur
+        data[b].dichte=data[c].dichte
+        data[b].schmelztemperatur = data[c].schmelztemperatur
+        
+        h2.innerHTML=`Your Total Score is <span>${score}</span>.`
+    }
+    else {
+        alert("Du hast verloren lol")
+        score = 0
+                
+h2.innerHTML=`Your Total Score is <span>${score}</span>.`
+    }
+})
+
+function random() {
+    r = Math.floor(Math.random()*50)
+    return r
+}
+random(1)
