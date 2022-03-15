@@ -258,6 +258,30 @@ data = [
         description: 5,
         country: 5
     }
+    {
+        name: 'Chrom',
+        follower_count: 2672,
+        description: 7.14,
+        country: 1907
+    },
+    {
+        name: 'Edelstahl',
+        follower_count: 1800,
+        description: 1.45,
+        country 1480
+    },
+    {
+        name: 'Eisen',
+        follower_count: 2862,
+        description: 7.86,
+        country 1538
+    },
+    {
+        name: 'Ethan',
+        follower_count: 89,
+        description: 0.54,
+        country -128.8
+    },
 ]
 let aname=document.getElementById("aname")
 let afollow=document.getElementById("afollow")
