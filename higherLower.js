@@ -282,6 +282,30 @@ data = [
         description: 0.54,
         country -128.8
     },
+    {
+        name: 'Kohlenstoff',
+        follower_count: 4827,
+        description: 3.51,
+        country 3550
+    },
+    {
+        name: 'Tellur',
+        follower_count 990,
+        description 6.24,
+        country 449.5
+    },
+    {
+        name: 'Propanol',
+        follower_count 97,
+        description 0.78,
+        country -1.26
+    },
+    {
+        name: 'Methanol',
+        follower_count 64.7,
+        description 0.79,
+        country -97.6
+    }
 ]
 let aname=document.getElementById("aname")
 let afollow=document.getElementById("afollow")
