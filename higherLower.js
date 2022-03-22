@@ -368,7 +368,7 @@ hBtn.addEventListener("click", function () {
 h2.innerHTML=`Your Total Score is <span>${score}</span>.`
     }
      else {
-        alert("You Loss Game!!!!!!!!!!!")
+        alert("Du hast verloren!!! Lade die Seite neu!")
         score = 0
                 
 h2.innerHTML=`Your Total Score is <span>${score}</span>.`
@@ -403,7 +403,7 @@ lBtn.addEventListener("click", function () {
         h2.innerHTML=`Your Total Score is <span>${score}</span>.`
     }
     else {
-        alert("You Loss Game!!!!!!!!!!!")
+        alert("Du hast verloren!!! Lade die Seite neu!")
         score = 0
                 
 h2.innerHTML=`Your Total Score is <span>${score}</span>.`
