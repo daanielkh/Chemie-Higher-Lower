@@ -257,7 +257,7 @@ data = [
         follower_count: 2562,
         description: 5,
         country: 5
-    }
+    },
     {
         name: 'Chrom',
         follower_count: 2672,
@@ -268,43 +268,43 @@ data = [
         name: 'Edelstahl',
         follower_count: 1800,
         description: 1.45,
-        country 1480
+        country: 1480
     },
     {
         name: 'Eisen',
         follower_count: 2862,
         description: 7.86,
-        country 1538
+        country: 1538
     },
     {
         name: 'Ethan',
         follower_count: 89,
         description: 0.54,
-        country -128.8
+        country: -128.8
     },
     {
         name: 'Kohlenstoff',
         follower_count: 4827,
         description: 3.51,
-        country 3550
+        country: 3550
     },
     {
         name: 'Tellur',
-        follower_count 990,
-        description 6.24,
-        country 449.5
+        follower_count: 990,
+        description: 6.24,
+        country: 449.5
     },
     {
         name: 'Propanol',
-        follower_count 97,
-        description 0.78,
-        country -1.26
+        follower_count: 97,
+        description: 0.78,
+        country: -1.26
     },
     {
         name: 'Methanol',
-        follower_count 64.7,
-        description 0.79,
-        country -97.6
+        follower_count: 64.7,
+        description: 0.79,
+        country: -97.6
     }
 ]
 let aname=document.getElementById("aname")
