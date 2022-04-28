@@ -278,7 +278,7 @@ data = [
     },
     {
         name: 'Ethan',
-        follower_count: 89,
+        follower_count: -89,
         description: 0.54,
         country: -128.8
     },
