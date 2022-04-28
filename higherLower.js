@@ -256,7 +256,7 @@ data = [
         name: 'Kupfer',
         follower_count: 2562,
         description: 5,
-        country: 5
+        country: 1.085
     },
     {
         name: 'Chrom',
