@@ -3,309 +3,310 @@ data = [
         name: 'Quecksilber',
         follower_count: 1500,
         description: 13.54,
-        country: -38.4
+        country: 80
     },
     {
         name: 'Wasserstoff',
         follower_count: -253,
         description: 0.09,
-        country: -259
+        country: 1
     },
     {
         name: 'Natrium',
         follower_count: 883,
         description: 0.97,
-        country: 97.8
+        country: 11
     },
     {
         name: 'Rubidium',
         follower_count: 688,
         description: 1.53,
-        country: 39.3
+        country: 37
     },
       {
         name: 'Caesium',
         follower_count: 678,
         description: 1.9,
-        country: 28.4
+        country: 55
     },
     {
         name: 'Beryllium',
         follower_count: 2970,
         description: 1.85,
-        country: 1287
+        country: 4
     },
   
     {
         name: 'Magnesium',
         follower_count: 1090,
         description: 1.75,
-        country: 650
+        country: 12
     },
     {
         name: 'Calcium',
         follower_count: 1484,
         description: 1.55,
-        country: 842
+        country: 20
     },
     {
         name: 'Strontium',
         follower_count: 1384,
         description: 2.63,
-        country: 777
+        country: 38
     },
     {
         name: 'Barium',
         follower_count: 1140,
         description: 3.62,
-        country: 727
+        country: 56
     }, {
         name: 'Bor',
         follower_count: 2550,
         description: 2.46,
-        country: 2076
+        country: 5
     },
  {
         name: 'Gallium',
         follower_count: 2403,
         description: 5.9,
-        country: 29.8
+        country: 31
     },
         {
         name: 'Indium',
         follower_count: 2000,
         description: 7.31,
-        country: 256.6
+        country: 49
     },
    
     {
         name: 'Thalium',
         follower_count: 1457,
         description: 11.85,
-        country: 304
+        country: 81
     },
     {
         name: 'Silicium',
         follower_count: 2355,
         description: 2.35,
-        country: 1410
+        country: 14
     },
     {
         name: 'Sauerstoff',
         follower_count: -183,
         description: 1.43,
-        country: -218
+        country: 8
     },
     {
         name: 'Schwefel',
         follower_count: 445,
-        description: 2.07,
+        description: 16
         country: 119
     },
     {
         name: 'Selen',
         follower_count: 685,
         description: 3.61,
-        country: 220
+        country: 34
     },
     {
         name: 'Antimon',
         follower_count: 1750,
         description: 6.7,
-        country: 630.6
+        country: 51
     },
     {
         name: 'Stickstoff',
         follower_count: -196,
         description: 1.25,
-        country: -210
+        country: 7
     },
     {
         name: 'Fluor',
         follower_count: -188,
         description: 1.72,
-        country: -220
+        country: 9
     },
     {
         name: 'Chlor',
         follower_count: -35,
         description: 3.22,
-        country: 101.5
+        country: 17
     },
     {
         name: 'Brom',
         follower_count: 59,
         description: 3.12,
-        country: -7
+        country: 35
     },
     {
         name: 'Wasser',
         follower_count: 100,
         description: 1,
-        country: 0
+        country: 10
     },
     {
         name: 'Ethanol',
         follower_count: 78.4,
         description: 0.79,
-        country: -114.1
+        country: 25
     },
+    { 
+        name: 'Helium', 
+        follower_count: -268.9, 
+        description: 0.18, 
+        country: 2 
+    }, 
+    { 
+        name: 'Neon', 
+        follower_count: -246.1, 
+        description: -248, 
+        country: 10
+    }, 
+    { 
+        name: 'Argon', 
+        follower_count: -185.5, 
+        description: 1.78, 
+        country: 18 
+    }, 
     {
-        name: 'Helium',
-        follower_count: -268.9,
-        description: 0.18,
-        country: -272.2
-    },
+        name: 'Krypton', 
+        follower_count: -153.4, 
+        description: 3.78, 
+        country: 36
+    }, 
+    { 
+        name: 'Xenon', 
+        follower_count: -108.1, 
+        description: 5.89, 
+        country: 54 
+    }, 
+    { 
+        name: 'Phosphor', 
+        follower_count: 280.5, 
+        description: 1.88, 
+        country: 15 
+    }, 
+    { 
+        name: 'Arsen', 
+        follower_count: 816.8, 
+        description: 3.74, 
+        country: 33 
+    }, 
+    { 
+        name: 'Germanium', 
+        follower_count: 2833, 
+        description: 5.3, 
+        country: 32 
+    }, 
+    { 
+        name: 'Iod', 
+        follower_count: 184.3, 
+        description: 4.94, 
+        country: 53
+    }, 
+    { 
+        name: 'Zinn', 
+        follower_count: 2602, 
+        description: 7.3, 
+        country: 50 
+    }, 
+    { 
+        name: 'Lithium', 
+        follower_count: 1347, 
+        description: 0.53, 
+        country: 3 
+    }, 
+    { 
+        name: 'Kalium', 
+        follower_count: 774, 
+        description: 0.86, 
+        country: 19 
+    }, 
+    { 
+        name: 'Propan', 
+        follower_count: 97, 
+        description: 0.78, 
+        country: 28 
+    }, 
     {
-        name: 'Neon',
-        follower_count: -246.1,
-        description: -248,
-        country: 0.9
-    },
-    {
-        name: 'Argon',
-        follower_count: -185.5,
-        description: 1.78,
-        country: -189.4
-    },
-    {
-        name: 'Krypton',
-        follower_count: -153.4,
-        description: 3.78,
-        country: -157.4
-    },
-    {
-        name: 'Xenon',
-        follower_count: -108.1,
-        description: 5.89,
-        country: -111.8
-    },
-    {
-        name: 'Phosphor',
-        follower_count: 280.5,
-        description: 1.88,
-        country: 44.1
-    },
-    {
-        name: 'Arsen',
-        follower_count: 816.8,
-        description: 3.74,
-        country: 613.1
-    },
-    {
-        name: 'Germanium',
-        follower_count: 2833,
-        description: 5.3,
-        country: 938.2
-    },
-    {
-        name: 'Iod',
-        follower_count: 184.3,
-        description: 4.94,
-        country: 113.7
-    },
-    {
-        name: 'Zinn',
-        follower_count: 2602,
-        description: 7.3,
-        country: 231
-    },
-    {
-        name: 'Lithium',
-        follower_count: 1347,
-        description: 0.53,
-        country: 180
-    },
-    {
-        name: 'Kalium',
-        follower_count: 774,
-        description: 0.86,
-        country: 63.5
-    },
-    {
-        name: 'Propan',
-        follower_count: 97,
-        description: 0.78,
-        country: -126
-    },
-    {
-        name: 'Methan',
-        follower_count: 65,
-        description: 0.72,
-        country: -182
-    },
-    {
-        name: 'Blei',
-        follower_count: 1740,
-        description: 11.34,
-        country: 327.4
-    },
-    {
-        name: 'Gold',
-        follower_count: 2700,
-        description: 19.3,
-        country: 1064
-    },
-    {
-        name: 'Silber',
-        follower_count: 2162,
-        description: 10.5,
-        country: 660.3
-    },
-    {
-        name: 'Kupfer',
-        follower_count: 2562,
-        description: 5,
-        country: 1.085
-    },
-    {
-        name: 'Chrom',
-        follower_count: 2672,
-        description: 7.14,
-        country: 1907
-    },
-    {
-        name: 'Edelstahl',
-        follower_count: 1800,
-        description: 1.45,
-        country: 1480
-    },
-    {
-        name: 'Eisen',
-        follower_count: 2862,
-        description: 7.86,
-        country: 1538
-    },
-    {
-        name: 'Ethan',
-        follower_count: -89,
-        description: 0.54,
-        country: -128.8
-    },
-    {
-        name: 'Kohlenstoff',
-        follower_count: 4827,
-        description: 3.51,
-        country: 3550
+        name: 'Methan', 
+        follower_count: 65, 
+        description: 0.72, 
+        country: 10 
+    }, 
+    { 
+        name: 'Blei', 
+        follower_count: 1740, 
+        description: 11.34, 
+        country: 82 
+    }, 
+    { 
+        name: 'Gold', 
+        follower_count: 2700, 
+        description: 19.3, 
+        country: 79 
+    }, 
+    { 
+        name: 'Silber', 
+        follower_count: 2162, 
+        description: 10.5, 
+        country: 47 
+    }, 
+    { 
+        name: 'Kupfer', 
+        follower_count: 2562, 
+        description: 5, 
+        country: 29 
+    }, 
+    { 
+        name: 'Chrom', 
+        follower_count: 2672, 
+        description: 7.14, 
+        country: 24 
+    }, 
+    { 
+        name: 'Edelstahl', 
+        follower_count: 1800, 
+        description: 1.45, 
+        country: 
+    }, 
+    { 
+        name: 'Eisen', 
+        follower_count: 2862, 
+        description: 7.86, 
+        country: 26 
+    }, 
+    { 
+        name: 'Ethan', 
+        follower_count: -89, 
+        description: 0.54, 
+        country: 18 
+    }, 
+    { 
+        name: 'Kohlenstoff', 
+        follower_count: 4827, 
+        description: 3.51, 
+        country: 6 
     },
     {
         name: 'Tellur',
         follower_count: 990,
         description: 6.24,
-        country: 449.5
+        country: 52
     },
     {
         name: 'Propanol',
         follower_count: 97,
         description: 0.78,
-        country: -1.26
+        country: 34
     },
     {
         name: 'Methanol',
         follower_count: 64.7,
         description: 0.79,
-        country: -97.6
+        country: 17
     }
+
 ]
 let aname=document.getElementById("aname")
 let afollow=document.getElementById("afollow")
