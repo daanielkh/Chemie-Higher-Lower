@@ -268,7 +268,7 @@ data = [
         name: 'Edelstahl', 
         follower_count: 1800, 
         description: 1.45, 
-        country: 
+        country: 15555
     }, 
     { 
         name: 'Eisen', 
