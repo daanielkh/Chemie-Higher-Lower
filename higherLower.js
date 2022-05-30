@@ -99,7 +99,7 @@ data = [
     {
         name: 'Schwefel',
         follower_count: 445,
-        description: 16,
+        description: 1.5,
         country: 119
     },
     {
