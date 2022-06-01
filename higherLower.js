@@ -349,12 +349,12 @@ hBtn.addEventListener("click", function () {
         aname.innerHTML=`<b>Name: </b>${data[b].name}`
         afollow.innerHTML=`<b>Siedetemperatur: </b>${data[b].follower_count} °C`
         adescr.innerHTML=`<b>Dichte: </b>${data[b].description} kg/m3`
-        acount.innerHTML=`<b>Protonenzahl: </b>${data[b].country} °C`
+        acount.innerHTML=`<b>Protonenzahl: </b>${data[b].country}`
         
         bname.innerHTML=`<b>Name: </b>${data[c].name}`
         bfollow.innerHTML=`<b>Siedetemperatur: </b>? °C`
         bdescr.innerHTML=`<b>Dichte: </b>${data[c].description} kg/m3`
-        bcount.innerHTML = `<b>Protonenzahl: </b>${data[c].country} °C`
+        bcount.innerHTML = `<b>Protonenzahl: </b>${data[c].country}`
         
         console.log(data[b].follower_count)
         console.log(data[a].follower_count)
@@ -385,12 +385,12 @@ lBtn.addEventListener("click", function () {
         aname.innerHTML=`<b>Name: </b>${data[b].name}`
         afollow.innerHTML=`<b>Siedetemperatur: </b>${data[b].follower_count} °C`
         adescr.innerHTML=`<b>Dichte: </b>${data[b].description} kg/m3`
-        acount.innerHTML=`<b>Protonenzahl: </b>${data[b].country} °C`
+        acount.innerHTML=`<b>Protonenzahl: </b>${data[b].country}`
         
         bname.innerHTML=`<b>Name: </b>${data[c].name}`
         bfollow.innerHTML=`<b>Siedetemperatur: </b>? °C`
         bdescr.innerHTML=`<b>Dichte: </b>${data[c].description} kg/m3`
-        bcount.innerHTML = `<b>Protonenzahl: </b>${data[c].country} °C`
+        bcount.innerHTML = `<b>Protonenzahl: </b>${data[c].country}`
         
         console.log(data[b].follower_count)
         console.log(data[a].follower_count)
