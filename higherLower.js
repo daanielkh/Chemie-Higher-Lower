@@ -100,7 +100,7 @@ data = [
         name: 'Schwefel',
         follower_count: 445,
         description: 1.5,
-        country: 119
+        country: 16
     },
     {
         name: 'Selen',
@@ -263,12 +263,6 @@ data = [
         follower_count: 2672, 
         description: 7.14, 
         country: 24 
-    }, 
-    { 
-        name: 'Edelstahl', 
-        follower_count: 1800, 
-        description: 1.45, 
-        country: 15555
     }, 
     { 
         name: 'Eisen', 
