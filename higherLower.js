@@ -325,12 +325,12 @@ else a=b-1
 aname.innerHTML=`<b>Name: </b>${data[a].name}`
 afollow.innerHTML=`<b>Siedetemperatur: </b>${data[a].follower_count} °C`
 adescr.innerHTML=`<b>Dichte: </b>${data[a].description} kg/m3`
-acount.innerHTML=`<b>Protonenzahl: </b>${data[a].country} °C`
+acount.innerHTML=`<b>Protonenzahl: </b>${data[a].country}`
 
 bname.innerHTML=`<b>Name: </b>${data[b].name}`
 bfollow.innerHTML=`<b>Siedetemperatur: </b>? °C`
 bdescr.innerHTML=`<b>Dichte: </b>${data[b].description} kg/m3`
-bcount.innerHTML=`<b>Protonenzahl: </b>${data[b].country} °C`
+bcount.innerHTML=`<b>Protonenzahl: </b>${data[b].country}`
 
 let hBtn = document.getElementById("high")
 let lBtn = document.getElementById("low")
