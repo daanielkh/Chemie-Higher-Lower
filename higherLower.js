@@ -159,7 +159,7 @@ data = [
     { 
         name: 'Neon', 
         follower_count: -246.1, 
-        description: 0,89, 
+        description: 0.89, 
         country: 10
     }, 
     { 
@@ -230,7 +230,7 @@ data = [
     }, 
     {
         name: 'Methan', 
-        follower_count: 65, 
+        follower_count: -161.6, 
         description: 0.72, 
         country: 10 
     }, 
