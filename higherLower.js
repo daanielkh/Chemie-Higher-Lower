@@ -159,7 +159,7 @@ data = [
     { 
         name: 'Neon', 
         follower_count: -246.1, 
-        description: -248, 
+        description: 0,89, 
         country: 10
     }, 
     { 
