@@ -2,7 +2,7 @@ section {
   display: flex;
 }
 section div {
-  width: 42%;
+  width: 42%; 
   height: 300px;
   background-color: rgb(243, 225, 202);
   border: 2px solid red;
