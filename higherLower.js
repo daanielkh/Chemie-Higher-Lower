@@ -340,25 +340,29 @@ hBtn.addEventListener("click", function () {
 
         bfollow.innerHTML = `<b>Followers: </b>${data[b].follower_count} °C`
         c = random()
-        aname.innerHTML=`<b>Name: </b>${data[b].name}`
-        afollow.innerHTML=`<b>Siedetemperatur: </b>${data[b].follower_count} °C`
-        adescr.innerHTML=`<b>Dichte: </b>${data[b].description} kg/m3`
-        acount.innerHTML=`<b>Protonenzahl: </b>${data[b].country}`
+        if(data[b].follower_count == data[c].follower_count)
+           {
+               c = random()
+           }
+         aname.innerHTML=`<b>Name: </b>${data[b].name}`
+         afollow.innerHTML=`<b>Siedetemperatur: </b>${data[b].follower_count} °C`
+         adescr.innerHTML=`<b>Dichte: </b>${data[b].description} kg/m3`
+         acount.innerHTML=`<b>Protonenzahl: </b>${data[b].country}`
         
-        bname.innerHTML=`<b>Name: </b>${data[c].name}`
-        bfollow.innerHTML=`<b>Siedetemperatur: </b>? °C`
-        bdescr.innerHTML=`<b>Dichte: </b>${data[c].description} kg/m3`
-        bcount.innerHTML = `<b>Protonenzahl: </b>${data[c].country}`
+         bname.innerHTML=`<b>Name: </b>${data[c].name}`
+         bfollow.innerHTML=`<b>Siedetemperatur: </b>? °C`
+         bdescr.innerHTML=`<b>Dichte: </b>${data[c].description} kg/m3`
+         bcount.innerHTML = `<b>Protonenzahl: </b>${data[c].country}`
         
-        console.log(data[b].follower_count)
-        console.log(data[a].follower_count)
-        data[a].follower_count=data[b].follower_count
+         console.log(data[b].follower_count)
+         console.log(data[a].follower_count)
+         data[a].follower_count=data[b].follower_count
 
-        data[b].name=data[c].name
-        data[b].follower_count=data[c].follower_count
-        data[b].description=data[c].description
-        data[b].country = data[c].country
-        
+         data[b].name=data[c].name
+         data[b].follower_count=data[c].follower_count
+         data[b].description=data[c].description
+         data[b].country = data[c].country
+           
         
 h2.innerHTML=`Your Total Score is <span>${score}</span>.`
     }
