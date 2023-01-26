@@ -340,10 +340,12 @@ hBtn.addEventListener("click", function () {
 
         bfollow.innerHTML = `<b>Followers: </b>${data[b].follower_count} °C`
         c = random()
-        if(data[b].follower_count == data[c].follower_count)
+        
+        if(data[b].name == data[c].name)
            {
                c = random()
            }
+        
          aname.innerHTML=`<b>Name: </b>${data[b].name}`
          afollow.innerHTML=`<b>Siedetemperatur: </b>${data[b].follower_count} °C`
          adescr.innerHTML=`<b>Dichte: </b>${data[b].description} kg/m3`
