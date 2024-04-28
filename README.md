@@ -1,5 +1,5 @@
 # HigherLower
 
-Projekt für das P-Seminar
+High School Project
 
-https://danielkholodov.github.io/Chemie-Higher-Lower/
+https://daanielkh.github.io/Chemie-Higher-Lower/
